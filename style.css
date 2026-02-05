@@ -1,0 +1,93 @@
+.top {
+  background: white;
+  height: 60px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  float: left;
+  padding: 18px;
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+  background: #e9edf0;
+  font-family: Arial;
+}
+.menu {
+  float: left;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.menu a {
+  margin-right: 15px;
+  text-decoration: none;
+
+  color: #555;
+  font-size: 14px;
+}
+
+.icons span {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.icons {
+  float: right;
+  margin-top: 18px;
+  margin-right: 20px;
+}
+
+.block {
+  background: #1f2428;
+  margin: 30px;
+
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.card {
+  width: 32%;
+  height: 220px;
+  margin: 0.6%;
+
+  background-size: cover;
+  background-position: center;
+
+  border-radius: 8px;
+  position: relative;
+}
+
+.big {
+  height: 260px;
+}
+
+.card p {
+  color: white;
+  font-size: 16px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 6px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.live {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: red;
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+}
